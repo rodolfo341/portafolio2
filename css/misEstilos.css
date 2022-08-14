@@ -1,0 +1,52 @@
+
+.color_fondo{
+    background-color: rgb(60, 60, 60);
+    color: #fff;
+    /*background-color: #fff;
+    color:black;*/
+}
+
+/**** IMAGEN DE FONDO ****/
+.fondo{
+    background-image: url(../img/fondo6.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    z-index: 1;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.articulo{
+    z-index: 2;
+}
+
+html,body,header,.view {
+    height: 100%;
+}
+
+.fondo-transparente{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+/**** ANIMACION AFECTA A TODO ****/
+:root {
+    --animate-duration: 2000ms; /*8000ms;*/
+    --animate-delay: 1s;
+}
+
+.descripcion{
+    text-align: center;
+    line-height: 3em;
+}
+
+.retraso{
+    --animate-delay: 5s; /* 5s;*/
+}
